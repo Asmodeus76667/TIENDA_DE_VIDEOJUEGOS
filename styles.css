@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: #00ff00;
+}
+
+/* Estilos del header */
+.header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.header li a {
+    color: #00ff00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilos de las secciones */
+.content {
+    padding: 20px;
+}
+
+.detalle-videojuego h2,
+.foro h2 {
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+.galeria img {
+    width: 30%;
+    margin: 10px;
+    border: 2px solid #00ff00;
+}
+
+.botones-compra .btn {
+    background-color: #000000;
+    color: #00ff00;
+    padding: 10px 20px;
+    border: 2px solid #00ff00;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.botones-compra .btn:hover {
+    background-color: #00ff00;
+    color: #000000;
+}
+
+/* Estilos del foro */
+.comentarios .comentario {
+    background-color: #333333;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 4px solid #00ff00;
+}
+
+.form-comentario textarea {
+    width: 100%;
+    border: 2px solid #00ff00;
+    background-color: #000000;
+    color: #00ff00;
+    padding: 10px;
+    resize: none;
+}
+
+.form-comentario .btn {
+    display: block;
+    margin-top: 10px;
+}
+/* Tabla de productos */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    color: #fff;
+}
+
+thead {
+    background-color: #1e1e1e;
+}
+
+th, td {
+    border: 1px solid #00ff99;
+    padding: 10px;
+    text-align: center;
+}
+
+td img {
+    max-width: 100px;
+    border-radius: 5px;
+}
+a {
+    transition: color 0.3s;
+}
+a:hover {
+    color: #00ff99;
+}
